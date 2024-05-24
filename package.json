@@ -2,13 +2,19 @@
   "name": "vtube-backend",
   "version": "1.0.0",
   "description": "an in depth backend project",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/index.js",
+    "dev": "nodemon src/indes.js"
   },
   "keywords": [
     "javascript"
   ],
   "author": "Sakib Zeem",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0",
+    "prettier": "^3.2.5"
+  }
 }
